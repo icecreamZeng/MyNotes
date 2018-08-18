@@ -1,6 +1,6 @@
 
-# <center>文件目录</center>
-## [一、Java面试题](/notes/Java面试)
+# 文件目录
+## [一、Java面试题](/notes/Java面试/Java面试题.md)
 - ### [1 Java基础](/notes/Java面试/Java基础.md)
 - ### [2 线程](/notes/Java面试/线程.md)
 - ### [3 JVM](/notes/Java面试/JVM.md)
