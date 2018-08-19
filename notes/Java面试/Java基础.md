@@ -38,8 +38,20 @@
 
 ​	这一点正是有利于各种通用框架的搭建，比如spring框架会根据配置的类的信息自动注入到bean;还有在使用IDE时，在输入一个对象或者类名时，会自动提示该对象或类的属性和方法。
 
-
 ## java异常
+
+### Java中的两种异常类型是什么？他们有什么区别？
+
+![异常类的结构](https://coding.net/s/cf8bf2ff-96c3-498a-ae1e-70458f585cef) 
+
+java异常分为**运行时异常(checked exception)** 和**非运行时异常(unchecked exception)** 
+
+(1) 运行时异常(checked exception)
+
+
+
+(2) 非运行时异常(unchecked exception) 
+
 
 ## java IO
 
