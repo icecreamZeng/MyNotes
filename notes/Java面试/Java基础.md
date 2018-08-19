@@ -3,7 +3,7 @@
   - [String、StringBuilder、StringBuffer](#String、StringBuilder、StringBuffer)
   - [java反射](#java反射)
   - [java异常](#java异常)
-  - [java IO](#java IO)
+  - [java&nbsp;IO](#java&nbsp;IO)
   - [hashCode](#hashCode)
   - [单例模式](#单例模式)
   - [观察者模式](#观察者模式)
@@ -17,7 +17,7 @@
 
 ## java异常
 
-## java IO
+## java&nbsp;IO
 
 ## hashCode
 
