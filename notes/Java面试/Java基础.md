@@ -42,7 +42,9 @@
 
 ### Java中的两种异常类型是什么？他们有什么区别？
 
-![异常类的结构](https://coding.net/s/cf8bf2ff-96c3-498a-ae1e-70458f585cef) 
+
+
+![异常类的结构](https://dn-coding-net-production-file.qbox.me/6f808ba0-a3ba-11e8-a656-3754f01d039a.png?e=1534691967&token=goE9CtaiT5YaIP6ZQ1nAafd_C1Z_H2gVP8AwuC-5:mYVcSYXg3dzg8m0fB3OCnQGJDU4=) 
 
 java异常分为**运行时异常(checked exception)** 和**非运行时异常(unchecked exception)** 
 
