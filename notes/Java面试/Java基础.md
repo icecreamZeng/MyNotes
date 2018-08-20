@@ -1,7 +1,28 @@
 # Java基础
 [TOC]
 
+- [前言](#前言)
+
+- [String、StringBuilder、StringBuffer](#stringstringbuilderstringbuffer)
+
+- [java反射](#java反射)
+
+- [java异常](#java异常)
+
+- [java IO](#java-io)
+
+- [hashCode](#hashcode)
+
+- [单例模式](#单例模式)
+
+- [观察者模式](#观察者模式)
+
+- [适配器模式](#适配器模式)
+
+  
+
 ## 前言
+
 ​     		本章介绍java相关面试中被问及的java基础知识，包括相关的工具类，高级JDK新增的功能。
 
 ## String、StringBuilder、StringBuffer
