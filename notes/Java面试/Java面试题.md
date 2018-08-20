@@ -1,4 +1,5 @@
 # Java面试题
+
 ## [第一章 Java基础](/notes/Java面试/Java基础.md)
   - ### String、StringBuilder、StringBuffer
   - ### java反射
@@ -11,12 +12,22 @@
 
 ## [第二章  线程](/notes/Java面试/线程.md)
   - ### 线程的生命周期
+
   - ### 线程与进程之间的区别
+
   - ### 线程通信
+
   - ### 线程同步
+
   - ### 线程池
+
   - ### 死锁
+
   - ### hashMap的线程问题
+
+  - ### 用 wait-notify 写一段代码来解决生产者-消费者问题 
+
+  - ### 用 Java 写一个线程安全的单例模式（Singleton） 
 
 ## [第三章 JVM](/notes/Java面试/JVM.md)
   - ### JVM基础
@@ -58,3 +69,7 @@
   - ### 网络的体系结构
   - ### TCP和UDP
   - ### HTTP和HTTPS
+
+## [第七章 框架](/notes/Java面试/框架.md)
+  - ### String AOP 
+  - ### autowired和resource区别
