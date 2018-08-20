@@ -19,11 +19,13 @@
 
 - [适配器模式](#适配器模式)
 
+- [注解总结](#注解总结)
+
   
 
 ## 前言
 
-​     		本章介绍java相关面试中被问及的java基础知识，包括相关的工具类，高级JDK新增的功能。
+​ 本章介绍java相关面试中被问及的java基础知识，包括相关的工具类，高级JDK新增的功能。
 
 ## String、StringBuilder、StringBuffer
 
@@ -42,6 +44,8 @@
 ### 反射的概述
  **[百度百科](https://baike.baidu.com/item/JAVA%E5%8F%8D%E5%B0%84%E6%9C%BA%E5%88%B6/6015990)**
 >JAVA反射机制是在运行状态中，对于任意一个类，都能够知道这个类的所有属性和方法；对于任意一个对象，都能够调用它的任意方法和属性；这种动态获取信息以及动态调用对象方法的功能称为java语言的反射机制。
+
+
 
 
 
@@ -146,9 +150,72 @@ public void fun2() {
 
 (3) try-catch :用来处理异常，try中写尝试运行的代码，catch中写遇见异常的处理方式。
 
+catch 可以捕获多个异常，但要注意的是，捕获多个异常时，异常变量默认有了final 修饰。
+
+```java
+public class MultiExceptionTest
+{
+    public static void main(String[] args)
+    {
+        try{
+            int a = Integer.parseInt(args[0]);
+            int b = Integer.parseInt(args[1]);
+            int c = a/b;
+            System.out.println("您输入的两个数相除的结果为 ：" + c);
+ 			}
+        catch(IndexOutOfBoundsException|NumberFormatException|ArithmeticException ie){
+            System.out.println("程序发生了数组越界、数字格式错误、算术异常之一");
+            //捕获多异常时，异常变量默认有final修饰
+            //下面代码产生编译错误
+            ie = new ArithmeticException("test");
+        }
+        catch (Exception e){
+            System.out.println("未知异常");
+            e = new RunTimeException("test");
+        }
+    }
+}
+```
+
+
+
 遇见代码抛出非运行时异常，要么即时使用try-catch处理，要么使用throws在所在方法处抛出，交由该方法调用者处理。
 
+### 4.ClassNotFoundException、NoClassDefFoundError 
+
+ 当应用程序试图使用以下的方法通过字符串名加载类时，抛出ClassNotFoundException：
+
+1.Class类中的ForName方法。
+
+2.ClassLoader类中的findSystemClass方法。
+
+3.ClassLoader类中的loadClass方法。
+
+一般出现的原因是 环境变量错误、路径错误、或者使用了重复的版本不一致的类库，从而优先使用低版本。
+
+NoClassDefFoundError常见场景：
+
+1.类依赖的class或者jar不存在;
+
+2.类文件存在在不同的域中;
+
 ## java IO
+
+
+
+### 在 Java 程序中，我有三个 socket，我需要多少个线程来处理？ 
+
+### Java 中，怎么读写 ByteBuffer ？
+
+### Java 采用的是大端还是小端？
+
+### ByteBuffer 中的字节序是什么？ 
+
+### Java 中，直接缓冲区与非直接缓冲器有什么区别？ 
+
+### Java 中的内存映射缓存区是什么？ 
+
+### Java 中，ByteBuffer 与 StringBuffer有什么区别？ 
 
 ## hashCode
 
@@ -157,3 +224,6 @@ public void fun2() {
 ## 观察者模式
 
 ## 适配器模式
+
+## 注解总结
+
