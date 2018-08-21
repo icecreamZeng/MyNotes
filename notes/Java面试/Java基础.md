@@ -11,7 +11,7 @@
 
 - [java IO](#java-io)
 
-- [hashCode](#hashcode)
+- [hashMap](#hashmap)
 
 - [单例模式](#单例模式)
 
@@ -201,9 +201,9 @@ NoClassDefFoundError常见场景：
 
 ## java IO
 
-
-
 ### 在 Java 程序中，我有三个 socket，我需要多少个线程来处理？ 
+
+###  IO多路复用
 
 ### Java 中，怎么读写 ByteBuffer ？
 
@@ -217,7 +217,10 @@ NoClassDefFoundError常见场景：
 
 ### Java 中，ByteBuffer 与 StringBuffer有什么区别？ 
 
-## hashCode
+## hashMap
+
+### HashMap的实现原理和底层结构
+[参考文章:HashMap的实现原理和底层结构](https://blog.csdn.net/QXJQQQ/article/details/78317385)
 
 ## 单例模式
 
