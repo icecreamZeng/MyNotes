@@ -10,7 +10,7 @@
 
 - [java IO](#java-io)
 
-- [hashMap](#hashmap)
+- [Java集合](#java集合)
 
 - [单例模式](#单例模式)
 
@@ -216,7 +216,7 @@ NoClassDefFoundError常见场景：
 
 ### Java 中，ByteBuffer 与 StringBuffer有什么区别？ 
 
-## hashMap
+## Java集合
 
 ### HashMap的实现原理和底层结构
 [参考文章:HashMap的实现原理和底层结构](https://blog.csdn.net/QXJQQQ/article/details/78317385)
