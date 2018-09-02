@@ -2,23 +2,19 @@
 
 - [前言](#前言)
 
-- [String、StringBuilder、StringBuffer](#stringstringbuilderstringbuffer)
+- [一、String、StringBuilder、StringBuffer](#一stringstringbuilderstringbuffer)
 
-- [java反射](#java反射)
+- [二、java反射](#二java反射)
 
-- [java异常](#java异常)
+- [三、java异常](#三java异常)
 
-- [java IO](#java-io)
+- [四、java IO](#四java-io)
 
-- [Java集合](#java集合)
+- [五、Java集合](#五java集合)
 
-- [单例模式](#单例模式)
+- [六、设计模式](#六设计模式)
 
-- [观察者模式](#观察者模式)
-
-- [适配器模式](#适配器模式)
-
-- [注解总结](#注解总结)
+- [七、注解总结](#七注解总结)
 
 
 
@@ -26,7 +22,7 @@
 
 ​ 本章介绍java相关面试中被问及的java基础知识，包括相关的工具类，高级JDK新增的功能。
 
-## String、StringBuilder、StringBuffer
+## 一、String、StringBuilder、StringBuffer
 
 ### 特性介绍 
 - 1、字符串就是一连串的**字符串序列**
@@ -35,7 +31,7 @@
 - 4、StringBuilder 是 JDK1.5新增的类,与StringBuffer基本相似，构造器与方法基本相同。
 - 5、**StringBuffer线程安全**，性能相较StringBuilder 略低，通常情况下,**优先使用StringBuilder**
 
-##  java反射
+## 二、java反射
 [参考文章:Java基础之—反射（非常重要）](https://blog.csdn.net/sinat_38259539/article/details/71799078)
 
 ​	使用的前提条件：必须先得到代表的字节码的Class，Class类用于表示.class文件（字节码）
@@ -53,7 +49,7 @@
 ​	对于在编译期未知的class,可以运用java的反射机制来自主构造这个类的对象，,绕过类型和修饰符的限制，实现属性赋值，并调用它的方法。
 ​	这一点正是有利于各种通用框架的搭建，比如spring框架会根据配置的类的信息自动注入到bean;还有在使用IDE时，在输入一个对象或者类名时，会自动提示该对象或类的属性和方法。
 
-## java异常
+## 三、java异常
 
 
 
@@ -198,7 +194,7 @@ NoClassDefFoundError常见场景：
 
 2.类文件存在在不同的域中;
 
-## java IO
+## 四、java IO
 
 ### 在 Java 程序中，我有三个 socket，我需要多少个线程来处理？ 
 
@@ -216,16 +212,18 @@ NoClassDefFoundError常见场景：
 
 ### Java 中，ByteBuffer 与 StringBuffer有什么区别？ 
 
-## Java集合
+## 五、Java集合
 
 ### HashMap的实现原理和底层结构
 [参考文章:HashMap的实现原理和底层结构](https://blog.csdn.net/QXJQQQ/article/details/78317385)
 
-## 单例模式
+## 六、设计模式
 
-## 观察者模式
+### 1.单例模式
 
-## 适配器模式
+### 2.观察者模式
 
-## 注解总结
+### 3.适配器模式
+
+## 七、注解总结
 
