@@ -2,7 +2,7 @@ package algorithm.easy;
 
 /**
  * @Author: BG382769
- * @Description:
+ * @Description: 面试题 01.01. 判定字符是否唯一
  *实现一个算法，确定一个字符串 s 的所有字符是否全都不同。
  *
  * 示例 1：
@@ -20,7 +20,7 @@ package algorithm.easy;
 
  * @Date: Created in 2021/1/6 0:00
  */
-public class Interview0105 {
+public class Interview0101 {
     public static void main(String[] args) {
         System.out.println(isUnique("a"));
     }
