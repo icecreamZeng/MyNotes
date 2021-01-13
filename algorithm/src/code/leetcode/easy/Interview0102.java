@@ -1,4 +1,4 @@
-package algorithm.easy;
+package code.leetcode.easy;
 
 import java.util.Map;
 

@@ -1,4 +1,4 @@
-package algorithm.normal;
+package code.leetcode.normal;
 
 /**
  * @Author: BG382769
