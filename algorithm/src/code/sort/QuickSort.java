@@ -6,7 +6,7 @@ import java.util.Deque;
 import java.util.concurrent.atomic.AtomicInteger;
 
 /**
- * @Author: BG382769
+ * @Author: Zeng Hao
  * @Description: 快速排序
  * @Date: Created in 2021/1/13 23:12
  */

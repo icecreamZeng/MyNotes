@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * @Author: BG382769
+ * @Author: Zeng Hao
  * @Description: 面试题 01.04. 回文排列
  * 给定一个字符串，编写一个函数判定其是否为某个回文串的排列之一。
  *
