@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.concurrent.atomic.AtomicInteger;
 
 /**
- * @Author: BG382769
+ * @Author: Zeng Hao
  * @Description: 希尔排序
  * @Date: Created in 2021/1/14 14:48
  */

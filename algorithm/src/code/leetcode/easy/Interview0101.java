@@ -1,7 +1,7 @@
 package code.leetcode.easy;
 
 /**
- * @Author: BG382769
+ * @Author: Zeng Hao
  * @Description: 面试题 01.01. 判定字符是否唯一
  *实现一个算法，确定一个字符串 s 的所有字符是否全都不同。
  *
