@@ -1,4 +1,4 @@
-package code.leetcode.easy;
+package code.leetcode.codinginterview.normal;
 
 /**
  * @Author: BG382769

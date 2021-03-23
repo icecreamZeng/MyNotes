@@ -1,4 +1,4 @@
-package code.leetcode.normal;
+package code.leetcode.interview.normal;
 
 /**
  * @Author: Zeng Hao

@@ -1,4 +1,4 @@
-package code.leetcode.easy;
+package code.leetcode.interview.easy;
 
 /**
  * @Author: Zeng Hao
