@@ -1,3 +1,15 @@
+# VS Code
 .vscode
-/.idea/
+
+# Java
 /.out/
+*/target/
+*.class
+*.log
+
+# IDEA
+/.idea/
+*.iml
+*/.classpath
+*/.project
+*/.settings/
