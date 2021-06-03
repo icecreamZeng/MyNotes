@@ -4,7 +4,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 /**
- * @Author: BG382769
+ * @Author: Zeng Hao
  * @Description:
  * 剑指 Offer 03. 数组中重复的数字
  * 找出数组中重复的数字。

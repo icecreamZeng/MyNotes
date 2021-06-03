@@ -1,7 +1,7 @@
 package code.leetcode.codinginterview.normal;
 
 /**
- * @Author: BG382769
+ * @Author: Zeng Hao
  * @Description:
  * 剑指 Offer 04. 二维数组中的查找
  * 在一个 n * m 的二维数组中，每一行都按照从左到右递增的顺序排序，每一列都按照从上到下递增的顺序排序。
