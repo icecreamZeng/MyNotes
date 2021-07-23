@@ -1,9 +1,9 @@
 ---
-attachments: [Clipboard_2021-03-10-02-58-38.png, Clipboard_2021-03-10-03-38-09.png, Clipboard_2021-03-10-11-04-11.png, Clipboard_2021-03-10-11-08-12.png, Clipboard_2021-03-10-11-08-40.png, Clipboard_2021-03-10-11-09-20.png, Clipboard_2021-03-10-11-11-30.png]
+attachments: [Clipboard_2021-03-10-02-58-38.png, Clipboard_2021-03-10-03-38-09.png, Clipboard_2021-03-10-11-04-11.png, Clipboard_2021-03-10-11-08-12.png, Clipboard_2021-03-10-11-08-40.png, Clipboard_2021-03-10-11-09-20.png, Clipboard_2021-03-10-11-11-30.png, Clipboard_2021-06-07-21-36-53.png]
 tags: [1（目录）/Java技能树/Java/Java基础, 2（完成状态）/DONE, 3（完成时间）/2021/03/10, 线程安全, String]
 title: 2021030901 string、stringbuilder、stringbuffer
 created: '2021-03-09T06:49:08.405Z'
-modified: '2021-03-10T18:42:08.480Z'
+modified: '2021-06-07T13:36:53.447Z'
 ---
 
 # 2021030901 string、stringbuilder、stringbuffer 
@@ -24,7 +24,8 @@ StringBuilder（JDK1.5）: 可变字符序列，高效，线程不安全
 ![](@attachment/Clipboard_2021-03-10-11-08-12.png)
 ![](@attachment/Clipboard_2021-03-10-11-08-40.png)
 ​     相对于 String ，StringBuilder 和 StringBuffer对象操作不会产生新的字符串。其中，StringBuilder 高效但是线程不安全，适用于大多数不要求线程安全的场景，如果对线程安全有要求才会考虑使用StringBuffer。
-​     每个StringBuffer对象都有一定的缓冲区容量，当字符串大小没有超过容量时，不会分配新的容量，当字符串大小超过容量时，会自动增加容量,默认值是 16 字节
+​     每个StringBuffer对象都有一定的缓冲区容量，当字符串大小没有超过容量时，不会分配新的容量，当字符串大小超过容量时，会自动增加容量,默认值是 16 字
+![](@attachment/Clipboard_2021-06-07-21-36-53.png)
 ![](@attachment/Clipboard_2021-03-10-11-11-30.png)
 StringBuilder提供了与StringBuilder兼容的API。
 
