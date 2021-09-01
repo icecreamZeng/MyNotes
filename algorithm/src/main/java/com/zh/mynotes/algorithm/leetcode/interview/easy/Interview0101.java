@@ -1,4 +1,4 @@
-package leetcode.interview.easy;
+package com.zh.mynotes.algorithm.leetcode.interview.easy;
 
 /**
  * @Author: Zeng Hao
@@ -7,7 +7,7 @@ package leetcode.interview.easy;
  *
  * 示例 1：
  *
- * 输入: s = "leetcode"
+ * 输入: s = "com.zh.mynotes.algorithm.leetcode"
  * 输出: false
  * 示例 2：
  *

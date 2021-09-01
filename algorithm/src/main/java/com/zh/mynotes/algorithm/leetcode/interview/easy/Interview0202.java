@@ -1,6 +1,5 @@
-package leetcode.interview.easy;
+package com.zh.mynotes.algorithm.leetcode.interview.easy;
 
-import java.util.Map;
 import java.util.concurrent.atomic.AtomicInteger;
 
 /**

@@ -1,6 +1,4 @@
-package leetcode.interview.normal;
-
-import java.lang.reflect.Member;
+package com.zh.mynotes.algorithm.leetcode.interview.normal;
 
 /**
  * @Author: Zeng Hao

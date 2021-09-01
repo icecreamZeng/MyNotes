@@ -1,4 +1,4 @@
-package leetcode.codinginterview.easy;
+package com.zh.mynotes.algorithm.leetcode.codinginterview.easy;
 
 import java.util.HashSet;
 import java.util.Set;

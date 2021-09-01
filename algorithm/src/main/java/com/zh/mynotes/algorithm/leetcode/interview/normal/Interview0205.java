@@ -1,4 +1,4 @@
-package leetcode.interview.normal;
+package com.zh.mynotes.algorithm.leetcode.interview.normal;
 
 import java.util.ArrayDeque;
 import java.util.Deque;

@@ -1,4 +1,4 @@
-package sort;
+package com.zh.mynotes.algorithm.sort;
 
 import java.util.ArrayDeque;
 import java.util.Arrays;

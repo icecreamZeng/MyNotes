@@ -1,4 +1,4 @@
-package leetcode.interview.normal;
+package com.zh.mynotes.algorithm.leetcode.interview.normal;
 
 /**
  * @Author: Zeng Hao
@@ -19,8 +19,8 @@ package leetcode.interview.normal;
  * 输入：head = [1], pos = -1
  * 输出：no cycle
  * 解释：链表中没有环。
- *]
- * “     * 进阶：
+ *
+ * 进阶：
  *
  * 你是否可以不用额外空间解决此题？
  * @Date: Created in 2021/8/26 11:28
@@ -31,8 +31,40 @@ public class Interview0208 {
         System.out.println(detectCycle(null));
     }
 
+    //这实际是一道数学问题，
+    //设链表起点到环入口的距离为a,
+    //设环长为b,
+    //设置两个快慢指针，快指针走每走两步，慢指针走一步,
+    //如果快慢指针相遇到环入口的距离是x,则有：
+    // (a + x) * 2 = a + b + x 或  (a + x) * 2 = a + b + b + x 或   (a + x) * 2 = a + b + b + b + x 或 (a + b + x) * 2 = a + b + b + b + x ....
+    //得到 a + x = n * b
+    // 所以，第一次相遇后，如果让一个快指针从链表起点与慢指针速度相同出发，再次相遇地点一定是环入口。
     public static ListNode detectCycle(ListNode head) {
-        return null;
+        ListNode fast = head;
+        ListNode slow = head;
+        do{
+          if(fast == null || slow == null){
+              return null;
+          }
+          slow = slow.next;
+          fast = fast.next;
+          if(fast == null){
+              return null;
+          }
+          fast = fast.next;
+        }while(fast != slow);
+        if(fast == null || slow == null){
+            return null;
+        }
+        if(slow == head){
+            return head;
+        }
+        fast = head;
+        do{
+            slow = slow.next;
+            fast = fast.next;
+          }while(fast != slow);
+        return slow;
     }
 
     static class ListNode {

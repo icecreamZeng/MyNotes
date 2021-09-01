@@ -1,4 +1,4 @@
-package leetcode.codinginterview.normal;
+package com.zh.mynotes.algorithm.leetcode.codinginterview.normal;
 
 /**
  * @Author: Zeng Hao

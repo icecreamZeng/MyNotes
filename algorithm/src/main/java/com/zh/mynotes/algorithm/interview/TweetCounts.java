@@ -1,4 +1,4 @@
-package interview;
+package com.zh.mynotes.algorithm.interview;
 
 import java.util.ArrayList;
 import java.util.HashMap;
