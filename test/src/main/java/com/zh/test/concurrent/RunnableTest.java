@@ -20,6 +20,7 @@ public class RunnableTest {
               }
           }catch (InterruptedException e){}
         };
+        r.run();
         Thread.currentThread().setDaemon(true);
     }
 }

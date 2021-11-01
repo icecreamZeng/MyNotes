@@ -27,8 +27,7 @@ public class Interview0104 {
 
     public static boolean canPermutePalindrome2(String s){
         count(s);
-        char[] chars = s.toCharArray();
-        int sL = chars.length;
+        char[] chars = s.toCharArray();int sL = chars.length;
         int length = sL / 2 + sL % 2;
         int index = 0;
         for (char ch : chars){

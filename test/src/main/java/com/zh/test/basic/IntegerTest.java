@@ -14,6 +14,6 @@ public class IntegerTest {
         System.out.println(c == a + b);
         System.out.println(c == 400);
         System.out.println(a + b == 399 + 1.0);
-        System.out.println(c.equals(a + b));
+        //System.out.println(c.equals(a + b));
     }
 }

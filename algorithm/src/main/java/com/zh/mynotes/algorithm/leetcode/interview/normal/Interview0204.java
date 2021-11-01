@@ -33,10 +33,10 @@ public class Interview0204 {
         ListNode node5 = new ListNode(5);
         ListNode node6 = new ListNode(6);
         node.next = node2;
-//        node2.next = node3;
-//        node3.next = node4;
-//        node4.next = node5;
-//        node5.next = node6;
+        node2.next = node3;
+        node3.next = node4;
+        node4.next = node5;
+        node5.next = node6;
         ListNode result = partition(node, 0);
         System.out.println("==================");
         do {

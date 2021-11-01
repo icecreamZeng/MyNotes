@@ -66,7 +66,7 @@ public class CodingInterviews05 {
 
     /**
      * 使用 stringbuilder 工具类
-     * TODO stringBuilder stringBuffer 底层如何工作的？
+     * stringBuilder stringBuffer 底层如何工作的？
      * @param s
      * @return
      */

@@ -22,7 +22,7 @@ public class ShellSort {
     private static int[] method(int[] arr) {
         int length = arr.length;
         //第一次的增量为 n/2,每次都执行插入排序，直到 增量 = 1
-        int increment = arr.length / 2;
+        int increment = length / 2;
         while (increment >= 1){
 
         }

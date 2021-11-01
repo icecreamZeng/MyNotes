@@ -38,6 +38,7 @@ public class CodingInterviews04 {
                                      {10, 13, 14, 17, 24},
                                      {18, 21, 23, 26, 30}};
         int[][] intnums = new int[][]{{-5}};
+        System.out.println(findNumberIn2DArray(matrix, 19));
         System.out.println(findNumberIn2DArray(intnums, 19));
     }
 
