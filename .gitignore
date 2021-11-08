@@ -4,6 +4,7 @@
 # Java
 /.out/
 */target/
+/target/*
 *.class
 *.log
 
