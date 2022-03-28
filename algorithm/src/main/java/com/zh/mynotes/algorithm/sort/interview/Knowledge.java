@@ -1,4 +1,4 @@
-package com.zh.mynotes.algorithm.interview;
+package com.zh.mynotes.algorithm.sort.interview;
 
 import java.util.ArrayList;
 import java.util.Collections;

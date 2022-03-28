@@ -1,4 +1,4 @@
-package com.zh.mynotes.algorithm.interview;
+package com.zh.mynotes.algorithm.sort.interview;
 
 /**
  * @Author: Zeng Hao
