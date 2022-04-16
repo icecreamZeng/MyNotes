@@ -35,9 +35,9 @@ public class LargestPalindrome {
     public static int method(int n) {
         int min = (int)Math.pow(10, n - 1);
         int max = (int) Math.pow(10, n) - 1;
-        int l = max * max;
+        long l = (long) max * (long) max;
         int result = 0;
-        for (int i = max; true; i --) {
+        for (int i = max; i > 0; i --) {
             long num  = i;
             for (int x = i; x > 0 ; x /=10 ) {
                 num = num * 10 + x % 10;
@@ -45,17 +45,16 @@ public class LargestPalindrome {
             if (num > l){
                 continue;
             }
-            if (check(min, max, num, n)){
-                result =  (int) num % 1337;
+            if (check(min, max, num)){
+                result =  (int) (num % 1337);
                 break;
             }
         }
         return result;
     }
 
-    public static boolean check(int min, int max, long num, int n){
-        int sqrt = (int)Math.sqrt(num);
-        for (int i = min; i <= sqrt; i++) {
+    public static boolean check(int min, int max, long num){
+        for (int i = max; i * i >= max; i--) {
             if (num % i == 0){
                 long a = num / i;
                 if (a >= min && a <= max){
