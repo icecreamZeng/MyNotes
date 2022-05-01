@@ -1,4 +1,4 @@
-package com.zh.mynotes.algorithm.sort.interview;
+package com.zh.mynotes.algorithm.leetcode.interview;
 
 import java.util.ArrayList;
 import java.util.HashMap;
