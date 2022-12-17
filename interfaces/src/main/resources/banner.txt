@@ -1,0 +1,64 @@
+${AnsiColor.BRIGHT_YELLOW}
+////////////////////////////////////////////////////////////////////
+//                          _ooOoo_                               //
+//                         o8888888o                              //
+//                         88" . "88                              //
+//                         (| ^_^ |)                              //
+//                         O\  =  /O                              //
+//                      ____/`---'\____                           //
+//                    .'  \\|     |//  `.                         //
+//                   /  \\|||  :  |||//  \                        //
+//                  /  _||||| -:- |||||-  \                       //
+//                  |   | \\\  -  /// |   |                       //
+//                  | \_|  ''\---/''  |   |                       //
+//                  \  .-\__  `-`  ___/-. /                       //
+//                ___`. .'  /--.--\  `. . ___                     //
+//              ."" '<  `.___\_<|>_/___.'  >'"".                  //
+//            | | :  `- \`.;`\ _ /`;.`/ - ` : | |                 //
+//            \  \ `-.   \_ __\ /__ _/   .-` /  /                 //
+//      ========`-.____`-.___\_____/___.-`____.-'========         //
+//                           `=---='                              //
+//      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^        //
+//            佛祖保佑       永不宕机     永无BUG                    //
+////////////////////////////////////////////////////////////////////
+
+${AnsiColor.BLUE}
+
+
+
+
+MMMMMMMM               MMMMMMMM                         NNNNNNNN        NNNNNNNN                          tttt
+M:::::::M             M:::::::M                         N:::::::N       N::::::N                       ttt:::t
+M::::::::M           M::::::::M                         N::::::::N      N::::::N                       t:::::t
+M:::::::::M         M:::::::::M                         N:::::::::N     N::::::N                       t:::::t
+M::::::::::M       M::::::::::Myyyyyyy           yyyyyyyN::::::::::N    N::::::N   ooooooooooo   ttttttt:::::ttttttt        eeeeeeeeeeee        ssssssssss
+M:::::::::::M     M:::::::::::M y:::::y         y:::::y N:::::::::::N   N::::::N oo:::::::::::oo t:::::::::::::::::t      ee::::::::::::ee    ss::::::::::s
+M:::::::M::::M   M::::M:::::::M  y:::::y       y:::::y  N:::::::N::::N  N::::::No:::::::::::::::ot:::::::::::::::::t     e::::::eeeee:::::eess:::::::::::::s
+M::::::M M::::M M::::M M::::::M   y:::::y     y:::::y   N::::::N N::::N N::::::No:::::ooooo:::::otttttt:::::::tttttt    e::::::e     e:::::es::::::ssss:::::s
+M::::::M  M::::M::::M  M::::::M    y:::::y   y:::::y    N::::::N  N::::N:::::::No::::o     o::::o      t:::::t          e:::::::eeeee::::::e s:::::s  ssssss
+M::::::M   M:::::::M   M::::::M     y:::::y y:::::y     N::::::N   N:::::::::::No::::o     o::::o      t:::::t          e:::::::::::::::::e    s::::::s
+M::::::M    M:::::M    M::::::M      y:::::y:::::y      N::::::N    N::::::::::No::::o     o::::o      t:::::t          e::::::eeeeeeeeeee        s::::::s
+M::::::M     MMMMM     M::::::M       y:::::::::y       N::::::N     N:::::::::No::::o     o::::o      t:::::t    tttttte:::::::e           ssssss   s:::::s
+M::::::M               M::::::M        y:::::::y        N::::::N      N::::::::No:::::ooooo:::::o      t::::::tttt:::::te::::::::e          s:::::ssss::::::s
+M::::::M               M::::::M         y:::::y         N::::::N       N:::::::No:::::::::::::::o      tt::::::::::::::t e::::::::eeeeeeee  s::::::::::::::s
+M::::::M               M::::::M        y:::::y          N::::::N        N::::::N oo:::::::::::oo         tt:::::::::::tt  ee:::::::::::::e   s:::::::::::ss
+MMMMMMMM               MMMMMMMM       y:::::y           NNNNNNNN         NNNNNNN   ooooooooooo             ttttttttttt      eeeeeeeeeeeeee    sssssssssss
+                                     y:::::y
+                                    y:::::y
+                                   y:::::y
+                                  y:::::y
+                                 yyyyyyy
+
+
+
+
+
+${AnsiColor.BRIGHT_RED}
+Spring Version: ${application.version}${application.formatted-version}
+Spring Boot Version: ${spring-boot.version}${spring-boot.formatted-version}
+
+
+
+
+
+
