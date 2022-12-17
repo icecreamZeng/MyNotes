@@ -28,7 +28,7 @@
         <springboot.version>2.7.3</springboot.version>
         <spring-cloud.version>Greenwich.SR6</spring-cloud.version>
 
-        <jackson-databind.version>2.12.6.1</jackson-databind.version>
+        <jackson-databind.version>2.12.7.1</jackson-databind.version>
         <fastjson.version>1.2.83</fastjson.version>
         <com.google.guava.version>31.0.1-jre</com.google.guava.version>
         <netty-all.version>4.1.80.Final</netty-all.version>
