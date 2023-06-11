@@ -11,12 +11,13 @@
     <modelVersion>4.0.0</modelVersion>
     <packaging>jar</packaging>
 
-    <artifactId>notes</artifactId>
+    <artifactId>infra</artifactId>
 
     <dependencies>
+
         <dependency>
             <groupId>zh.xyz</groupId>
-            <artifactId>common</artifactId>
+            <artifactId>api</artifactId>
         </dependency>
 
     </dependencies>

@@ -9,13 +9,14 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>interfaces</artifactId>
+    <artifactId>api</artifactId>
 
     <dependencies>
         <dependency>
             <groupId>zh.xyz</groupId>
-            <artifactId>infrastructure</artifactId>
+            <artifactId>app</artifactId>
         </dependency>
     </dependencies>
+
 
 </project>

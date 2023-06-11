@@ -1,4 +1,4 @@
-package com.zh.mynotes.interfaces.app;
+package com.zh.mynotes.infra.app;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.Banner;

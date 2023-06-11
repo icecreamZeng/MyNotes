@@ -9,9 +9,12 @@
     <packaging>pom</packaging>
     <modelVersion>4.0.0</modelVersion>
     <modules>
-        <module>infrastructure</module>
+        <module>infra</module>
         <module>notes</module>
-        <module>interfaces</module>
+        <module>api</module>
+        <module>app</module>
+        <module>domain</module>
+        <module>common</module>
     </modules>
 
     <name>mynotes</name>
@@ -25,15 +28,17 @@
         <maven.compiler.target>18</maven.compiler.target>
         <!-- java end-->
 
-        <springboot.version>2.7.3</springboot.version>
-        <spring-cloud.version>Greenwich.SR6</spring-cloud.version>
+        <springboot.version>3.1.0</springboot.version>
+        <spring-cloud.version>2022.0.3</spring-cloud.version>
 
-        <jackson-databind.version>2.12.6.1</jackson-databind.version>
-        <fastjson.version>1.2.83</fastjson.version>
-        <com.google.guava.version>31.0.1-jre</com.google.guava.version>
-        <netty-all.version>4.1.80.Final</netty-all.version>
-        <lombok.version>1.18.24</lombok.version>
-        <slf4j.version>2.0.0-beta1</slf4j.version>
+        <org.yaml.snakeyaml.version>2.0</org.yaml.snakeyaml.version>
+        <jackson-databind.version>2.15.2</jackson-databind.version>
+        <fastjson.version>2.0.33</fastjson.version>
+        <com.google.guava.version>32.0.0-jre</com.google.guava.version>
+        <netty-all.version>4.1.93.Final</netty-all.version>
+        <lombok.version>1.18.28</lombok.version>
+        <slf4j.version>2.0.7</slf4j.version>
+        <alibaba.nacos.config.version>2022.0.0.0-RC2</alibaba.nacos.config.version>
     </properties>
 
     <dependencyManagement>
@@ -41,28 +46,39 @@
         <dependencies>
 
             <!--module start-->
-
             <dependency>
                 <groupId>zh.xyz</groupId>
-                <artifactId>infrastructure</artifactId>
+                <artifactId>notes</artifactId>
                 <version>${project.version}</version>
             </dependency>
 
             <dependency>
                 <groupId>zh.xyz</groupId>
-                <artifactId>interfaces</artifactId>
+                <artifactId>infra</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>zh.xyz</groupId>
+                <artifactId>api</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>zh.xyz</groupId>
+                <artifactId>app</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>zh.xyz</groupId>
+                <artifactId>domain</artifactId>
                 <version>${project.version}</version>
             </dependency>
 
             <dependency>
                 <groupId>zh.xyz</groupId>
                 <artifactId>common</artifactId>
-                <version>${project.version}</version>
-            </dependency>
-
-            <dependency>
-                <groupId>zh.xyz</groupId>
-                <artifactId>notes</artifactId>
                 <version>${project.version}</version>
             </dependency>
 
@@ -77,16 +93,24 @@
                 <scope>import</scope>
             </dependency>
 
-            <dependency>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-starter-web</artifactId>
-                <version>${springboot.version}</version>
-            </dependency>
-
             <!-- spring boot dependencies end -->
 
+            <!-- spring cloud dependencies start -->
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-dependencies</artifactId>
+                <version>${spring-cloud.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <!-- spring cloud dependencies end -->
 
-
+            <!-- https://mvnrepository.com/artifact/org.yaml/snakeyaml -->
+            <dependency>
+                <groupId>org.yaml</groupId>
+                <artifactId>snakeyaml</artifactId>
+                <version>${org.yaml.snakeyaml.version}</version>
+            </dependency>
 
             <dependency>
                 <groupId>com.fasterxml.jackson.core</groupId>
@@ -127,14 +151,6 @@
                 <artifactId>slf4j-api</artifactId>
                 <version>${slf4j.version}</version>
             </dependency>
-
-            <!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-simple -->
-            <dependency>
-                <groupId>org.slf4j</groupId>
-                <artifactId>slf4j-simple</artifactId>
-                <version>${slf4j.version}</version>
-            </dependency>
-
 
         </dependencies>
     </dependencyManagement>

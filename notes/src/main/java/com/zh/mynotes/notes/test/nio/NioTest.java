@@ -28,16 +28,16 @@ public class NioTest {
         System.out.println(new String(tempByte));
 
         //channel
-
-        File file = new File("com/zh/mynotes/notes/test/src/main/java/com/zh/test/nio/source.txt");
+        String rootPath = ClassLoader.getSystemResource("").getPath();
+        File file = new File(rootPath + "/source.txt");
         try(
                 FileInputStream fileInputStream = new FileInputStream(file);
                 FileChannel inputChannel = fileInputStream.getChannel();
                 FileInputStream fileInputDirectStream = new FileInputStream(file);
                 FileChannel inputDirectChannel = fileInputDirectStream.getChannel();
-                FileOutputStream fileOutputStream = new FileOutputStream(new File("dest.txt"));
+                FileOutputStream fileOutputStream = new FileOutputStream(rootPath + "/dest.txt");
                 FileChannel outChannel = fileOutputStream.getChannel();
-                FileOutputStream fileDirectStream = new FileOutputStream(new File("directDest.txt"));
+                FileOutputStream fileDirectStream = new FileOutputStream(rootPath + "/directDest.txt");
                 FileChannel directChannel = fileDirectStream.getChannel();
                 ) {
             ByteBuffer heapBuffer = ByteBuffer.allocate(10);
