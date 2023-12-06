@@ -16,6 +16,11 @@
             <groupId>zh.xyz</groupId>
             <artifactId>app</artifactId>
         </dependency>
+
+        <dependency>
+            <groupId>zh.xyz</groupId>
+            <artifactId>sdk</artifactId>
+        </dependency>
     </dependencies>
 
 
