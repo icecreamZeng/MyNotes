@@ -74,6 +74,11 @@
             <artifactId>slf4j-api</artifactId>
         </dependency>
 
+        <dependency>
+            <groupId>zh.xyz</groupId>
+            <artifactId>tools</artifactId>
+        </dependency>
+
     </dependencies>
 
 </project>

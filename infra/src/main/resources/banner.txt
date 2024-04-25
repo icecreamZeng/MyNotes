@@ -53,7 +53,7 @@ MMMMMMMM               MMMMMMMM       y:::::y           NNNNNNNN         NNNNNNN
 
 
 
-${AnsiColor.BRIGHT_RED}
+${AnsiColor.GREEN}
 Spring Version: ${application.version}${application.formatted-version}
 Spring Boot Version: ${spring-boot.version}${spring-boot.formatted-version}
 
