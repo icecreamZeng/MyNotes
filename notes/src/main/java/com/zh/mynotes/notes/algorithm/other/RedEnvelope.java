@@ -1,4 +1,4 @@
-package com.zh.mynotes.notes.algorithm.interview;
+package com.zh.mynotes.notes.algorithm.other;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;

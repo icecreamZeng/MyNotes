@@ -1,4 +1,4 @@
-package com.zh.mynotes.notes.algorithm.sort;
+package com.zh.mynotes.notes.algorithm.interview.sort;
 
 import java.util.ArrayDeque;
 import java.util.Arrays;
